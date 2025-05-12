@@ -25,24 +25,18 @@ p {
 }
 
 /* 背景样式 */
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Header 设置 */
 header {
-    background-image: url('path_to_your_image.jpg');
+    background-image: url('path_to_your_image.jpg'); /* 背景图片路径 */
     background-size: cover;
     background-position: center;
-    height: 300px;
-
-    color: white;
+    height: 100px; /* 调整高度，减小顶部空白 */
+    color: white; /* 文字颜色 */
     display: flex;
     justify-content: center;
-    align-items: flex-end; /* 保证文字靠底对齐 */
-    padding: 0 10px 20px;  /* 上0、左右10px、下20px */
-    margin: 0;             /* 清除外边距 */
+    align-items: flex-start; /* 调整为顶部对齐，减少与顶部的空隙 */
+    padding-top: 10px; /* 为了增加一点顶部间距 */
+    padding-bottom: 0; /* 控制 header 内容离底部的间距 */
+    margin-bottom: 0; /* 减少 header 与 main 之间的外边距 */
     text-align: center;
 }
 
