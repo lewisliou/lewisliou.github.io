@@ -11,7 +11,7 @@ body {
 
 .research-main {
   max-width: 2000px;    /* 最大宽度，可调 */
-  text-align: left;      /* 文字靠左 */
+  text-align: left !important;     /* 文字靠左 */
 }
 
 
