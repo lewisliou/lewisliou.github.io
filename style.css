@@ -10,8 +10,7 @@ body {
 }
 
 .research-main {
-  max-width: 1000px;    /* 最大宽度，可调 */
-  margin: 40px auto 0;  /* 上边距40px，左右居中 */
+  max-width: 2000px;    /* 最大宽度，可调 */
   padding: 0 20px;       /* 左右留出一点内边距 */
   text-align: left;      /* 文字靠左 */
 }
