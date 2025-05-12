@@ -24,31 +24,45 @@ p {
     font-size: 16px;
 }
 
-/* 顶部 hero 区域：背景色或背景图 */
-.hero {
-  background: linear-gradient(135deg, #3f87a6, #ebf8e1); /* 可以改成 background-image */
-  padding: 60px 0 30px;
-  text-align: center;
+/* 背景样式 */
+header {
+    background-image: url('path_to_your_image.jpg'); /* 背景图片路径 */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* 你可以调整这个值 */
+    color: white; /* 文字颜色 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-/* 导航栏容器样式 */
+/* 导航栏样式 */
 .navbar {
-  margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* 半透明背景 */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* 确保导航栏位于页面顶部 */
 }
 
 .navbar a {
-  margin: 0 20px;
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Georgia', serif;
-  transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
 }
 
 .navbar a:hover {
-  color: #ffd700;
+    background-color: rgba(255, 255, 255, 0.2); /* 悬停时效果 */
 }
+
+/* 内容区域的内边距，防止被导航栏遮挡 */
+body {
+    padding-top: 80px; /* 根据导航栏高度调整 */
+}
+
 
 /* 特殊中文字体设置 */
 .chinese {
