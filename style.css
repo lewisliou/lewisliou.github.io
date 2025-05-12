@@ -10,10 +10,11 @@ body {
 }
 
 .research-main {
-  max-width: 960px;  /* 控制最大宽度 */
-  margin: 40px auto; /* 上下有40px的间距，左右居中 */
-  padding: 0 20px;    /* 左右各留出20px的内边距 */
-  text-align: left;   /* 使文本左对齐 */
+   width: 100%;
+  max-width: none;
+  margin: 40px 0 0 40px; /* 距离左边40px，也可以调为20px */
+  padding: 0;
+  text-align: left;
 }
 
 
