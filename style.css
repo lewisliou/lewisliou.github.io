@@ -24,37 +24,30 @@ p {
     font-size: 16px;
 }
 
-/* 更简洁现代的导航栏样式 */
-nav {
-  background-color: #f8f9fa;
-  padding: 20px 0;
-  border-bottom: 1px solid #ddd;
+/* 顶部 hero 区域：背景色或背景图 */
+.hero {
+  background: linear-gradient(135deg, #3f87a6, #ebf8e1); /* 可以改成 background-image */
+  padding: 60px 0 30px;
   text-align: center;
 }
 
-.nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* 导航栏容器样式 */
+.navbar {
+  margin-top: 20px;
 }
 
-.nav-list li {
-  display: inline;
+.navbar a {
   margin: 0 20px;
-}
-
-.nav-list a {
+  color: white;
   text-decoration: none;
-  color: #333;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
   transition: color 0.3s ease;
-  font-family: "Georgia", serif;
 }
 
-.nav-list a:hover {
-  color: #007acc;
-  text-decoration: underline;
+.navbar a:hover {
+  color: #ffd700;
 }
 
 /* 特殊中文字体设置 */
