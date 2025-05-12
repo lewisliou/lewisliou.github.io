@@ -34,8 +34,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: flex-start; /* 调整为顶部对齐，减少与顶部的空隙 */
-    padding-top: 20px; /* 为了增加一点顶部间距 */
-    padding-bottom: 20px; /* 控制 header 内容离底部的间距 */
+    align-items: flex-end; /* 让标题靠底对齐 */
+    padding-top: 10px; /* 为了增加一点顶部间距 */
+    padding-bottom: 10px; /* 控制 header 内容离底部的间距 */
+    margin-bottom: 0; /* 减少 header 与 main 之间的外边距 */
     text-align: center;
 }
 
