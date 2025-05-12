@@ -29,11 +29,12 @@ header {
     background-image: url('path_to_your_image.jpg'); /* 背景图片路径 */
     background-size: cover;
     background-position: center;
-    height: 400px; /* 你可以调整这个值 */
+    height: 300px; /* 调整高度，减小顶部空白 */
     color: white; /* 文字颜色 */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* 调整为顶部对齐，减少与顶部的空隙 */
+    padding-top: 30px; /* 为了增加一点顶部间距 */
     text-align: center;
 }
 
